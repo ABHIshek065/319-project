@@ -1,0 +1,94 @@
+.card {
+    width: 450px;
+    /* border: 1px solid lightgray; */
+    background-color: tomato;
+    border-radius: 12px;
+    padding: 12px;
+    margin: 40px auto;
+    cursor: pointer;
+  }
+  
+  .btn {
+    border: none;
+    background-color: #000;
+    color: #ffff;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 13px;
+    margin-top: 12px;
+  }
+  
+  .alert {
+    width: 450px;
+    /* border: 1px solid lightgray; */
+    background-color: rgb(149, 244, 120);
+    border-radius: 12px;
+    color: rgb(0, 150, 0);
+    padding: 12px;
+    margin: 40px auto;
+    cursor: pointer;
+  }
+  
+  .submit-btn {
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 12px;
+  }
+  
+  input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 17px;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    outline-color: rgb(97, 121, 243);
+  }
+  
+  .head-container {
+    border: 1px solid lightgray;
+    width: 600px;
+    height: 300px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: bisque;
+    margin: 50px auto;
+  }
+  
+  .magic {
+    animation-name: magic;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes magic {
+    20% {
+      color: tomato;
+      font-size: 40ppx;
+    }
+    40% {
+      color: teal;
+      font-size: 50px;
+    }
+    60% {
+      color: darkblue;
+      font-size: 60px;
+    }
+    80% {
+      color: cyan;
+      font-size: 50px;
+    }
+    100% {
+      color: rgb(247, 138, 5);
+      font-size: 40px;
+    }
+  }
+  

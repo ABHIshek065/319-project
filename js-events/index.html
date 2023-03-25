@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+   
+    <div  onmouseover="mouseOver()" onmouseout="mouseOut()" class="card">
+        <h1 id="title" >how was the day your tommarow</h1>
+        <button class="btn" id="btn" onclick="beautiful()" >Most beutiful</button>
+    </div>
+    <div class="alert" id="alert"><strong>Alert!</strong> Your mouse is on the container.</div>
+
+
+    <div class="container">
+        <div class="card">
+            <h1>Enter Your Name to register</h1>
+            <input type="text" onchange="submitName()" onkeyup="submitName()" placeholder="Enter Your Name" id="name">
+            <button  class="submit-btn" id="submit-btn" onclick="submitName()">Submit</button>
+            <p id="userInput"></p>
+        </div>
+    </div>
+
+    <div class="head-container">
+        <button class="btn" id="btnClick" onclick="magic()">click me</button>
+        <button class="btn" id="btnStop" onclick="stopMagic()">stop magic</button>
+        
+        <h1 id="heading" >If you want to see the magic then click the see magic button 😊</h1>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

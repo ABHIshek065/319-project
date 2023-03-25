@@ -1,0 +1,39 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .container {
+  }
+  
+  .card {
+    width: 450px;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    padding: 12px;
+    margin: 35px auto;
+    cursor: pointer;
+  }
+  .card h1 {
+    color: tomato;
+  }
+  
+  .btn {
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 12px;
+  }
+  
+  input{
+      width: 100%;
+      box-sizing: border-box;
+      padding: 15px;
+      font-size: 17px;
+      border: 1px solid lightgray;
+      border-radius: 12px;
+  }
+  
