@@ -84,7 +84,7 @@ body {
   
   .success {
     /* display: none; */
-    border: 1px dashed rgb(10, 151, 0);
+    border: 1px dashed blueviolet;
     border-radius: 12px;
     padding: 10px;
     text-align: left;
