@@ -42,7 +42,7 @@ body {
     100% {
       font-size: 18px;
       width: 520px;
-      /* transform: rotate(2deg); */
+      transform: rotate(-2deg);
     }
   }
   
@@ -83,7 +83,7 @@ body {
   }
   
   .success {
-    /* display: none; */
+    display: none;
     border: 1px dashed blueviolet;
     border-radius: 12px;
     padding: 10px;
