@@ -1,0 +1,61 @@
+
+
+
+body{
+    background-color: rgb(253, 239, 222);
+}
+
+.container{
+    width: 500px;
+    margin: 20px auto;
+    padding: 12px;
+    border: 1px solid tan;
+    border-radius: 13px;
+   
+}
+
+.container h1{
+    font-size: 40px;
+}
+
+.card{
+    width: 500px;
+    /* margin: 10px auto; */
+}
+
+
+.btn{
+    width: 100%;
+    padding: 8px 36px;
+    margin: 4px;
+    background-color: rgb(252, 163, 47);
+    color: white;
+    border-radius: 11px;
+    border: none;
+    font-size: 16px;
+}
+
+.none{
+    display: none;
+}
+
+
+.magic {
+    width: 100px;
+    margin: 0 auto;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:rgb(250, 250, 106); left:300px; top:0px;}
+    50%  {background-color:blue; left:300px; top:300px;}
+    75%  {background-color:green; left:0px; top:300px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
