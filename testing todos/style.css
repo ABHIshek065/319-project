@@ -45,5 +45,18 @@ body {
     display: inline-block;
   }
 
+  .details li{
+    list-style: square;
+  
+  }
+
+  .details li::marker{
+    color: black;
+  }
+  .details li:nth-child(4){
+    color: rgb(50, 0, 228);
+    text-decoration: underline;
+  }
+
  
   

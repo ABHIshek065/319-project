@@ -1,0 +1,105 @@
+
+
+.card{
+  transition: .3s ease-in;
+  width: 280px;
+  margin-top: 12px;
+  border-radius: 12px;
+  border: 1px solid lightgray;
+  padding: 11px;
+}
+
+.card:hover{
+  transform: rotate(3deg);
+  border-radius: 18px;
+  border: 1px solid white;
+  box-shadow: 4px 5px 18px 8px #eee;
+}
+
+.card-img{
+  width: 100%;
+  border-radius: 12px;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.card-header{
+  position: relative;
+}
+
+.ratings{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 12px;
+  background-color: #fff;
+  font-size: 14px;
+  padding: 4px 12px;
+  border-radius: 6px;
+}
+
+.price{
+  margin: 0;
+}
+
+.must-try{
+  margin: 12px;
+  background-color: #aaf89a;
+  font-size: 13px;
+  color: green;
+  padding: 4px 12px;
+  border-radius: 6px;
+}
+
+.heading-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.d-none{
+  display: none;
+}
+
+
+/* ======================== hook =============================== */
+
+
+.flex-div{
+  width: 450px;
+  margin: 20px auto;
+  text-align: center;
+}
+.hook h1{
+  text-transform: capitalize;
+}
+
+.btn{
+  padding: 8px 34px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 12px;
+}
+
+.btn:hover{
+  outline: none;
+  background-color: transparent;
+  color: black;
+  border: 1px solid blueviolet;
+}
+
+
+ /* ================================dynamic=============================== */
+
+ .text{
+  text-transform: capitalize;
+ }
